@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>contact</title>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+   
+
+<header class="header">
+
+   <section class="flex">
+
+      <a href="#" class="logo"> <i class="fas fa-lightbulb"></i> educa </a>
+
+      <nav class="navbar">
+         <div id="close-navbar" class="fas fa-times"></div>
+         <a href="home.html">home</a>
+         <a href="about.html">about</a>
+         <a href="courses.html">courses</a>
+         <a href="contact.html">contact</a>
+      </nav>
+
+      <div class="icons">
+         <div id="account-btn" class="fas fa-user"></div>
+         <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+
+   </section>
+
+</header>
+
+
+
+<div class="account-form">
+
+   <div id="close-form" class="fas fa-times"></div>
+
+   <div class="buttons">
+      <span class="btn active login-btn">login</span>
+      <span class="btn register-btn">register</span>
+   </div>
+
+   <form class="login-form active" action="">
+      <h3>login now</h3>
+      <input type="email" placeholder="enter your email" class="box">
+      <input type="password" placeholder="enter your password" class="box">
+      <div class="flex">
+         <input type="checkbox" name="" id="remember-me">
+         <label for="remember-me">remember me</label>
+         <a href="#">forgot password?</a>
+      </div>
+      <input type="submit" value="login now" class="btn">
+   </form>
+
+   <form class="register-form" action="">
+      <h3>register now</h3>
+      <input type="email" placeholder="enter your email" class="box">
+      <input type="password" placeholder="enter your password" class="box">
+      <input type="password" placeholder="confirm your password" class="box">
+      <input type="submit" value="register now" class="btn">
+   </form>
+
+</div>
+
+
+
+<div class="heading-link">
+   <h3>Our blog</h3>
+   <p> <a href="home.html">home</a> / clubs </p> 
+ 
+
+
+ <div class="row">
+    <div class="col-12 col-md-6 col-lg-3">
+        <h3>Book Club</h3>
+        <p>Book Club is an intellectual and cultural space that unites students in exciting and educational activities. This club aims not only to encourage reading, but also to create an atmosphere that encourages the exchange of ideas, discussion and self-development.
+
+            Every month we gather to discuss a selected book, where participants have the opportunity to express their impressions, analyze the plot, discuss the themes and motifs of the work, and share their thoughts and views.</p>
+        <img id="mintChocolateImage" src="https://astanait.edu.kz/wp-content/uploads/2024/04/Screenshot_20240329-194928_Telegram.jpg" alt="A single mint chocolate cookie" class="zoom-image" />
+        <button class="btn btn-primary buy-button" onclick="readmore('well')">read more</button>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3">
+        <h3>Tengri – Debate club</h3>
+        <p>If you like to discuss and prove logical chains, learn to see cause-and-effect relationships, and have good soft-skills, this club is for you.
+            • Domestic policy: meetings and events every week, lectures, trainings from good debaters, internal tournaments
+            • Foreign policy: active interaction with other Astana clubs, joint meetings, tournaments, agreements 
+            • Active student life and environment, high SSCI, organizational composition of events, coordinators, mentors.</p>
+        <img id="peanutButterImage" src="https://astanait.edu.kz/wp-content/uploads/2024/04/photo_2023-03-12_20-01-28.jpg" alt="A single peanut butter cookie" class="zoom-image" />
+        <button class="btn btn-primary buy-button" onclick="readmore('well')">read more</button>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3">
+        <h3>Board Games Club</h3>
+        <p>Board games club - join us in the world of strategic entertainment! Students gather to play a variety of board games, including traditional board games, card games, and role-playing games (e.g. DND, etc.). Inclusion is key at our club - everyone is welcome to come and join in the fun! Take part in friendly competitions, make new friends and explore the exciting world of board games with us!</p>
+        <img id="oatmealImage" src="https://astanait.edu.kz/wp-content/uploads/2024/04/IMG_20230906_135057_448-1.png" alt="A single oatmeal cookie" class="zoom-image" />
+        <button class="btn btn-primary buy-button" onclick="readmore('well')">read more</button>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3">
+        <h3>Google Developer Student Club (GDSC)</h3>
+        <p>The Google Developer Student Club (GDSC) is a university community for students interested in Google developer technologies. It was created with the aim of bringing together students from all undergraduate and graduate programs who are looking to develop their skills in the field of development. By joining GDSC, students have the opportunity to expand their knowledge by working in a peer-to-peer learning environment and interact with experienced developers. </p>
+        <img id="chocolateChipImage" src="https://astanait.edu.kz/wp-content/uploads/2024/04/photo1711893539.jpeg" alt="A single chocolate chip cookie" class="zoom-image" />
+        <button class="btn btn-primary buy-button" onclick="readmore('well')">read more</button>
+    </div>
+</div>
+
+
+
+<footer class="footer">
+
+    <section>
+ 
+       <div class="box-container">
+    
+          <div class="box">
+             <h3> <i class="fas fa-lightbulb"></i> educa </h3>
+             <p>Discover a limitless world of learning with us!</p>
+             <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+             </div>
+          </div>
+    
+          <div class="box">
+             <h3>quick links</h3>
+             <a href="home.html" class="link">home</a>
+             <a href="about.html" class="link">about</a>
+             <a href="courses.html" class="link">courses</a>
+             <a href="contact.html" class="link">contact</a>
+          </div>
+    
+          <div class="box">
+             <h3>useful links</h3>
+             <a href="#" class="link">help center</a>
+             <a href="#" class="link">ask questions</a>
+             <a href="#" class="link">send feedback</a>
+             <a href="#" class="link">private policy</a>
+             <a href="#" class="link">terms of use</a>
+          </div>
+    
+          <div class="box">
+             <h3>newsletter</h3>
+             <p>subscribe for latest upadates</p>
+             <form action="">
+                <input type="email" name="" placeholder="enter your email" id="" class="email">
+                <input type="submit" value="subscribe" class="btn">
+             </form>
+          </div>
+    
+       </div>
+    
+       <div class="credit"> created by <span> Asylzhan</span> | all rights reserved! </div>
+    
+    </section>
+ 
+ </footer>
+ 
+
+ 
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+ 
+
+ <script src="js/script.js"></script>
+ 
+ </body>
+ </html>
